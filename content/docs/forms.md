@@ -131,10 +131,10 @@ class EssayForm extends React.Component {
 
 ```html
 <select>
-  <option value="grapefruit">Грейпфрут</option>
-  <option value="lime">Лайм</option>
-  <option selected value="coconut">Кокос</option>
-  <option value="mango">Манго</option>
+  <option value="грейпфрут">Грейпфрут</option>
+  <option value="лайм">Лайм</option>
+  <option selected value="кокос">Кокос</option>
+  <option value="манго">Манго</option>
 </select>
 ```
 
