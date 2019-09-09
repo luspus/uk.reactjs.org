@@ -144,7 +144,7 @@ class EssayForm extends React.Component {
 class FlavorForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {value: 'кокос'};
+    this.state = {value: 'coconut'};
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -165,10 +165,10 @@ class FlavorForm extends React.Component {
         <label>
           Оберіть ваш улюблений аромат:
           <select value={this.state.value} onChange={this.handleChange}>
-            <option value="грейпфрут">Грейпфрут</option>
-            <option value="лайм">Лайм</option>
-            <option value="кокос">Кокос</option>
-            <option value="манго">Манго</option>
+            <option value="grapefruit">Грейпфрут</option>
+            <option value="lime">Лайм</option>
+            <option value="coconut">Кокос</option>
+            <option value="mango">Манго</option>
           </select>
         </label>
         <input type="submit" value="Надіслати" />
